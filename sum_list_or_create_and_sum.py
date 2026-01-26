@@ -1,6 +1,8 @@
 def list_sum(lst):
-    """Returns the sum of all elements in the list."""
-    """If input is an integer, then sum all integers from 0 to that integer"""
+    """
+    Returns the sum of all elements in the list.
+    If input is an integer, then sum all integers from 0 to that integer
+    """
     sum=0
     
     if type(lst)==list:
