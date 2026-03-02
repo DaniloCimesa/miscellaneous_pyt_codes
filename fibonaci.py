@@ -13,3 +13,18 @@ def fib(n):
 
 for i in range(1,11):
     print(i,'->',fib(i))
+    
+    
+def fib2(n):
+    a,b = 0,1
+    sequence = []
+    while a<n:
+        sequence.append(a)
+        a,b=b,a+b
+    return sequence
+    
+    
+max=100
+c=fib2(max)
+
+print('Fibonacci sequence up to',max,'is',c)
